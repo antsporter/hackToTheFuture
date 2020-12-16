@@ -4,8 +4,8 @@
   <title>Mentorship</title>
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="news_scroll.css" type="text/css">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <style>
 
 </style>
@@ -13,14 +13,22 @@
 <body>
 <div class="topnav">
     <a><img src="media/profile.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></a>
-    <form class="search">
-        <input class="searchInput" type="search" placeholder="Search Mentors" >
-        <button class="searchButton" type="submit">Search</button>
-    </form>
     <a class="searchButton" href="#" style="float:right">Currently Mentoring</a>
 
     <a style="float: right;"><img src="media/status.png" width="50" height="50" alt="Online"></a>
 </div>
+  
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search for Mentors" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
 
 <div class="row">
   <div class="column-1">
@@ -48,9 +56,13 @@
       <h2>Mentor TO-DO</h2>
         <ol>
             <li>Task</li>
+            <br>
             <li>Task</li>
+            <br>
             <li>Task</li>
+            <br>
             <li>Task</li>
+            <br>
             <li>Task</li>
         </ol>
     </div>
