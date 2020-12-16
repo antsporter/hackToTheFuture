@@ -3,6 +3,7 @@
 <head>
     <title>Menteeship</title>
     <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="news_scroll.css" type="text/css">
     <meta name="viewport"
         content="width=device-width, initial-scale=1"> 
 <style>
@@ -62,14 +63,19 @@
   </div>
   <div class="column-4">
     <div class="card">
-        <h2>Industry News</h2>
-        <div class="fakeimg"><p>Image</p></div>
-        <div class="fakeimg"><p>Image</p></div>
-        <div class="fakeimg"><p>Image</p></div>
+        <!-- START SCROLLING NEWS WINDOW -->
+        <div id="news_iframe_scroll">
+          <div class="news_scroll-title">
+          <h2>Industry News</h2><br>
+          </div>
+          <iframe name="NewsIFrame" src="news_scroll.html" frameborder="0" scrolling="no"></iframe>
+          </div>
+          <!-- END SCROLLING NEWS WINDOW -->
       </div>
       <div class="card">
-        <h3>Follow Me</h3>
-        <p>Some text..</p>
+        <h2>Follow Me</h2>
+        <img src="socialMedia.jpeg" width="320px">
+
       </div>
   </div>
 </div>
