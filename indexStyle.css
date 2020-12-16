@@ -8,6 +8,10 @@ body {
   background: #f1f1f1;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -28,11 +32,8 @@ body {
 /* Style the topnav links */
 .topnav a {
   float: left;
-  display: block;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 /* Change color on hover */
@@ -41,18 +42,55 @@ body {
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
+/* styling search bar */ 
+.searchInput[type=text]{ 
+  width:500px; 
+  height:35px; 
+  border-radius:25px; 
+  border: none; 
+} 
+    
+.search{ 
+  margin:7px;
+} 
+    
+.searchButton{ 
+  background-color: #6264A7; 
+  color: #f2f2f2; 
+  padding: 5px 10px; 
+  margin-right: 10px; 
+  font-size: 12px; 
+  border: none; 
+  cursor: pointer; 
+}  
+
+/* Create  unequal columns that floats next to each other */
+.column-1 {   
   float: left;
-  width: 75%;
+  width: 20%;
+  background-color: #F3F2F1;
+  padding-left: 20px;
 }
 
-/* Right column */
-.rightcolumn {
+.column-2 {
   float: left;
-  width: 25%;
-  background-color: #f1f1f1;
+  width: 40%;
+  background-color: #F3F2F1;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.column-3 {
+  float: left;
+  width: 20%;
+  background-color: #F3F2F1;
+  padding-left: 20px;
+}
+
+.column-4 {
+  float: left;
+  width: 20%;
+  background-color: #F3F2F1;
   padding-left: 20px;
 }
 

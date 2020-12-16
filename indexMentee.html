@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="menteeStyle.css">
+    <title>Menteeship</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1"> 
 <style>
 
 </style>
 </head>
 <body>
-
-<div class="header">
-  <h1>Header</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+<div class="topnav">
+    <a><img src="profile.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></a>
+    <form class="search">
+        <input class="searchInput" type="search" placeholder="Search Mentors" >
+        <button class="searchButton" type="submit">Search</button>
+    </form>
+    <a class="searchButton" href="#" style="float:right">Become a Mentor</a>
+    <a style="float: right;"><img src="status.png" width="50" height="50" alt="Online"></a>
 </div>
 
 <div class="row">
-  <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  <div class="column-1">
+    <div class="card">
+        <h2>MENTORS</h2>
+        <ul>
+            <li>Gary Delooze</li>
+            <br>
+            <li>Patrick Bradd</li>
+            <br>
+            <li>John Gordon</li>
+            <br>
+            <li>Angelica Charry</li>
+            <br>
+            <li>Bill Gates</li>
+      </div>
+    
   </div>
-  
-  <div class="column middle">
-    <h2>Main Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  <div class="column-2"> 
+    <div class="card">
+        <h2>Mentorship News Feed</h2>
+        <p>Some text..</p>
+        <div class="fakeimg" style="height:100px;">Image</div>
+        <p>Some more text..</p>
+        <div class="fakeimg" style="height:100px;">Image</div>
+        <p>Some extra text..</p>
+        <div class="fakeimg" style="height:100px;">Image</div>
+      </div>
   </div>
-  
-  <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  <div class="column-3">
+    <div class="card">
+      <h2>Mentee TO-DO</h2>
+        <ol>
+            <li>Task</li>
+            <li>Task</li>
+            <li>Task</li>
+            <li>Task</li>
+            <li>Task</li>
+        </ol>
+    </div>
+  </div>
+  <div class="column-4">
+    <div class="card">
+        <h2>Industry News</h2>
+        <div class="fakeimg"><p>Image</p></div>
+        <div class="fakeimg"><p>Image</p></div>
+        <div class="fakeimg"><p>Image</p></div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text..</p>
+      </div>
   </div>
 </div>
-  
+
+<div class="footer">
+  <h2>Mentorship</h2>
+</div>
+
 </body>
 </html>
-
