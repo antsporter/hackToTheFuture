@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Muli', sans-serif;
-    background-image: linear-gradient(to right, #649173,  #dbd5a4 );
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #F3F2F1,  #87cefa);
 }
 ol, ul {
 	list-style: none;
@@ -79,7 +79,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #649173,  #dbd5a4 );
+    background-image: linear-gradient(to right, #F3F2F1,  #87cefa );
     height:2em;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16),
      0 3px 6px rgba(0,0,0,0.23);
@@ -120,7 +120,7 @@ table {
 }
 
 .calendar-days td:hover {
-    background: #dd9756;
+    background:   #CC4A31;
 }
 
 /******** Select Date *********/
@@ -188,7 +188,7 @@ table {
     text-align: center;
     margin: 20px auto 0px auto;
     padding: 15px 5px;
-    background-image: linear-gradient(to right, #649173,  #dbd5a4 );
+    background-image: linear-gradient(to right, #F3F2F1,  #87cefa );
     border-radius: 3px;
     box-shadow: 3px 6px 10px #393a39;
     transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
@@ -224,7 +224,7 @@ table {
 }
 
 .active {
-    background: blue;
+    background: #6264A7;
 }
 
 .active-event {
@@ -245,9 +245,9 @@ table {
     border-radius: 23px;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    color:gray;
+    color:white;
     box-shadow: 5px 8px 14px #393a39;
-    background-color: #dbd5a4;
+    background-color: #6264A7;
     outline:none;
     cursor:pointer;
   }
@@ -300,9 +300,9 @@ table {
     border-radius: 23px;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    color:gray;
-    box-shadow: 5px 8px 14px #393a39;
-    background-color: #dbd5a4;
+    color:white;
+    box-shadow: 5px 8px 14px #6264A7;
+    background-color: #6264A7;
     width:60%;
     align-self:center;
     padding:14px;
